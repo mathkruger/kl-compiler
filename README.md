@@ -28,3 +28,17 @@ CAN'T         | switch
 GET           | case
 OVER          | break
 GOODBYE       | default
+
+## Exemplo de código
+```javascript
+KASINAO constante É 54;
+
+DESTAQUE (constante ÉÉ 54)
+BOA NOITE
+    VAI DJ("ÉÉÉÉÉ");
+BOA TARDE
+INTERNACIONAL
+BOA NOITE
+    VAI DJ("NÃO ÉÉÉÉÉ");
+BOA TARDE
+```
