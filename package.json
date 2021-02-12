@@ -1,0 +1,14 @@
+{
+  "name": "kl-compiler",
+  "version": "1.0.0",
+  "description": "Compiler for KASINAO LANGUAGE",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Matheus Kruger",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^16.1.0"
+  }
+}
