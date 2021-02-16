@@ -31,6 +31,7 @@ AS BALADAS     | default
 VAI            | continue
 O SOM DA NOITE | return
 SABADAÇO       | function
+GILBARROWS     | => (arrow. sim, é um trocadilho horrível)
 
   
 ## Exemplo de código

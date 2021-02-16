@@ -15,6 +15,7 @@ module.exports = (klCode) => {
     code = code.replace(/(MAIOR)(?=(?:[^"]|"[^"]*")*$)/g, '>');
     code = code.replace(/(MENOR)(?=(?:[^"]|"[^"]*")*$)/g, '<');
     code = code.replace(/(NAUM)(?=(?:[^"]|"[^"]*")*$)/g, '!');
+    code = code.replace(/(GILBARROWS)(?=(?:[^"]|"[^"]*")*$)/g, '=>');
 
 
     // Conditional

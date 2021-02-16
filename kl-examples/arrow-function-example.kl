@@ -1,0 +1,11 @@
+KASINAO gilbarrowFuncion É (fera) GILBARROWS BOA NOITE
+    DESTAQUE (fera ÉÉ true) BOA NOITE
+        VAIDJ("GILBARROWS FUNCTION É O BICHO");
+    BOA TARDE
+    INTERNACIONAL BOA NOITE
+        VAIDJ("GILBARROWS FUNCTIONS NÃO É O BICHO :(");
+    BOA TARDE
+BOA TARDE
+
+gilbarrowFuncion(false);
+gilbarrowFuncion(true);

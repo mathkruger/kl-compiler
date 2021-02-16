@@ -9,6 +9,7 @@
   "author": "Matheus Kruger",
   "license": "MIT",
   "dependencies": {
+    "cli-highlight": "^2.1.10",
     "yargs": "^16.1.0"
   }
 }

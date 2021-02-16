@@ -1,5 +1,7 @@
 const fs = require('fs');
 const yargs = require('yargs');
+const highlight = require('cli-highlight').highlight
+
 const parse = require('./functions/parse');
 const execute = require('./functions/execute');
 
@@ -19,7 +21,9 @@ fs.readFile(FILE, 'utf8', function (err, data) {
     const translatedCode = parse(data);
     
     if (DEBUG) {
-        console.log(translatedCode);
+        console.log('Código traduzido: ');
+        console.log(highlight(translatedCode, {language: 'javascript', ignoreIllegals: true}));
+        console.log('\nSaída:');
     }
 
     const result = execute(translatedCode);
