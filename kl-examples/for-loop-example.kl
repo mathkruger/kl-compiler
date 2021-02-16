@@ -1,0 +1,8 @@
+AS BALADAS (KASINAE i É 0; i MENOR 10; i++) BOA NOITE
+    DESTAQUE(i == 9) BOA NOITE
+        VAIDJ("KASINO É " + (i + 1));
+    BOA TARDE
+    INTERNACIONAL BOA NOITE
+        VAIDJ("KASINO NÃO É " + (i + 1));
+    BOA TARDE
+BOA TARDE

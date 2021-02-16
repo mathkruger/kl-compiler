@@ -17,9 +17,11 @@ fs.readFile(FILE, 'utf8', function (err, data) {
     }
 
     const translatedCode = parse(data);
+    
     if (DEBUG) {
         console.log(translatedCode);
     }
+
     const result = execute(translatedCode);
     console.log(result);
 });

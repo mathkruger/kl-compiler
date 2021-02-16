@@ -4,13 +4,18 @@ module.exports = (klCode) => {
 
     // Variable structures
     code = code.replace(/(KASINO)(?=(?:[^"]|"[^"]*")*$)/g, 'let');
+    code = code.replace(/(KASINAE)(?=(?:[^"]|"[^"]*")*$)/g, 'var');
     code = code.replace(/(KASINAO)(?=(?:[^"]|"[^"]*")*$)/g, 'const');
 
     // Output
-    code = code.replace(/(VAI DJ)(?=(?:[^"]|"[^"]*")*$)/g, 'console.log');
+    code = code.replace(/(VAIDJ)(?=(?:[^"]|"[^"]*")*$)/g, 'console.log');
 
     // Operators
     code = code.replace(/(É)(?=(?:[^"]|"[^"]*")*$)/g, '=');
+    code = code.replace(/(MAIOR)(?=(?:[^"]|"[^"]*")*$)/g, '>');
+    code = code.replace(/(MENOR)(?=(?:[^"]|"[^"]*")*$)/g, '<');
+    code = code.replace(/(NAUM)(?=(?:[^"]|"[^"]*")*$)/g, '!');
+
 
     // Conditional
     code = code.replace(/(DESTAQUE)(?=(?:[^"]|"[^"]*")*$)/g, 'if');
@@ -27,6 +32,9 @@ module.exports = (klCode) => {
     code = code.replace(/(GOODBYE)(?=(?:[^"]|"[^"]*")*$)/g, 'default');
 
     // For loop
+    code = code.replace(/(AS BALADAS)(?=(?:[^"]|"[^"]*")*$)/g, 'for');
+    code = code.replace(/(VAI)(?=(?:[^"]|"[^"]*")*$)/g, 'continue');
+
 
     // Array methods
 
