@@ -14,21 +14,25 @@ Por decisão minha, os arquivos do KL terão final `.kl`, mesmo que, por enquant
 
 Ainda está em construção, sinta-se livre para contribuir.
 
-KL            | JS
---------------| ------
-KASINO        | let
-KASINAO       | const
-VAI DJ        | console.log
-É             | =
-DESTAQUE      | if
-INTERNACIONAL | else
-BOA NOITE     | {
-BOA TARDE     | }
-CAN'T         | switch
-GET           | case
-OVER          | break
-GOODBYE       | default
+KL             | JS
+---------------| ------
+KASINO         | let
+KASINAO        | const
+VAI DJ         | console.log
+É              | =
+DESTAQUE       | if
+INTERNACIONAL  | else
+BOA NOITE      | {
+BOA TARDE      | }
+CAN'T          | switch
+GET            | case
+OVER           | break
+AS BALADAS     | default
+VAI            | continue
+O SOM DA NOITE | return
+SABADAÇO       | function
 
+  
 ## Exemplo de código
 ```javascript
 KASINAO constante É 54;

@@ -1,0 +1,7 @@
+SABADAÇO deCaraComAFera(pessoa) BOA NOITE
+    KASINAO resultado = `${pessoa} E AS REVELAÇÕES NO DE CARA COM A FERA`;
+    O SOM DA NOITE resultado;
+BOA TARDE
+
+KASINAO teleprompt = deCaraComAFera('THAMMY');
+VAIDJ(teleprompt);
