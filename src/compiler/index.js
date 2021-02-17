@@ -2,8 +2,8 @@ const fs = require('fs');
 const yargs = require('yargs');
 const highlight = require('cli-highlight').highlight
 
-const parse = require('./functions/parse');
-const execute = require('./functions/execute');
+const parse = require('./functions/parse/parse');
+const execute = require('./functions/execute/execute');
 
 const input = yargs.argv;
 const FILE = input.file;

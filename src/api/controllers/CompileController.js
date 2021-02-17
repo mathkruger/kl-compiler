@@ -1,5 +1,5 @@
-const execute = require('../../compiler/functions/execute');
-const parse = require('../../compiler/functions/parse');
+const execute = require('../../compiler/functions/execute/execute');
+const parse = require('../../compiler/functions/parse/parse');
 
 module.exports = {    
     async compile(request, response) {

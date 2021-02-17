@@ -1,4 +1,4 @@
-const parse = require('../../compiler/functions/parse');
+const parse = require('../../compiler/functions/parse/parse');
 
 module.exports = {    
     async parse(request, response) {
