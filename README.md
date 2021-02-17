@@ -5,8 +5,11 @@ Linguagem baseada no grande [KASINÃO NO SABADAÇO](https://www.youtube.com/watc
 ----------
 
 ## Modo de usar
-Basta rodar:  
-`npm run start --file c:/caminho-do-arquivo-com-o-codigo --debug true|false`.  
+Para rodar o compilador, basta executar o comando:    
+`npm run compile --file c:/caminho-do-arquivo-com-o-codigo --debug true|false`.  
+
+Para executar a API, execute esse comando:  
+`npm run api:run`
   
 Por decisão minha, os arquivos do KL terão final `.kl`, mesmo que, por enquanto, não existe validação sobre isso.
 

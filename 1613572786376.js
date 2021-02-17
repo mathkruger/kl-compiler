@@ -1,7 +1,0 @@
-KASINAO constante É 54;
-DESTAQUE (constante ÉÉ 54) BOA NOITE
-VAIDJ("ÉÉÉÉÉ");
-BOA TARDE
-INTERNACIONAL BOA NOITE
-VAIDJ("NÃO ÉÉÉÉÉ");
-BOA TARDE
