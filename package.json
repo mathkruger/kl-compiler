@@ -4,12 +4,15 @@
   "description": "Compiler for KASINAO LANGUAGE",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "compile": "node src/compiler/index.js",
+    "api:run": "node src/api/index.js"
   },
   "author": "Matheus Kruger",
   "license": "MIT",
   "dependencies": {
     "cli-highlight": "^2.1.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "yargs": "^16.1.0"
   }
 }
