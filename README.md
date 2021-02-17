@@ -6,9 +6,11 @@ Linguagem baseada no grande [KASINÃO NO SABADAÇO](https://www.youtube.com/watc
 
 ## Modo de usar
 Basta rodar:  
-`npm run start --file c:/caminho-do-arquivo-com-o-codigo --debug true|false`.  
+`npm start c:/caminho-do-arquivo-com-o-codigo.kl`  
+Para debug:  
+`npm run debug c:/caminho-do-arquivo-com-o-codigo.kl`
   
-Por decisão minha, os arquivos do KL terão final `.kl`, mesmo que, por enquanto, não existe validação sobre isso.
+Por decisão minha, os arquivos do KL terão final `.kl`.
 
 ## Sintaxe
 
