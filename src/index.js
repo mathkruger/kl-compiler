@@ -7,11 +7,15 @@ const execute = require('./functions/execute');
 
 const input = yargs.argv;
 const FILE = input.file;
-const DEBUG = input.debug == 'true';
+const DEBUG = input.debug == 'true' || input.debug === true;
 
-if (!FILE) {
+if (!FILE || typeof FILE !== 'string') {
     throw new Error('--file is required!');
 }
+
+const isExtensionKL = FILE.match(/^.*\.kl$/i);
+if (!isExtensionKL)
+    throw new Error('Only KL extension is accepted');
 
 fs.readFile(FILE, 'utf8', function (err, data) {
     if (err) {
