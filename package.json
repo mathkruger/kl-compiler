@@ -4,7 +4,8 @@
   "description": "Compiler for KASINAO LANGUAGE",
   "main": "src/index.js",
   "scripts": {
-    "compile": "node src/compiler/index.js",
+    "start": "node src/compiler/index.js --file",
+    "debug": "node src/index.js --debug --file",
     "api:run": "node src/api/index.js"
   },
   "author": "Matheus Kruger",
