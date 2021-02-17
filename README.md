@@ -17,8 +17,9 @@ Ainda está em construção, sinta-se livre para contribuir.
 KL             | JS
 ---------------| ------
 KASINO         | let
+KASINAE        | var
 KASINAO        | const
-VAI DJ         | console.log
+VAIDJ          | console.log
 É              | =
 DESTAQUE       | if
 INTERNACIONAL  | else
@@ -29,7 +30,7 @@ GET            | case
 OVER           | break
 AS BALADAS     | default
 VAI            | continue
-O SOM DA NOITE | return
+ARREBENTA      | return
 SABADAÇO       | function
 GILBARROWS     | => (arrow. sim, é um trocadilho horrível)
 
@@ -40,10 +41,10 @@ KASINAO constante É 54;
 
 DESTAQUE (constante ÉÉ 54)
 BOA NOITE
-    VAI DJ("ÉÉÉÉÉ");
+    VAIDJ("ÉÉÉÉÉ");
 BOA TARDE
 INTERNACIONAL
 BOA NOITE
-    VAI DJ("NÃO ÉÉÉÉÉ");
+    VAIDJ("NÃO ÉÉÉÉÉ");
 BOA TARDE
 ```
