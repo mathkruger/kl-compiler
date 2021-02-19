@@ -5,14 +5,22 @@ Linguagem baseada no grande [KASINÃO NO SABADAÇO](https://www.youtube.com/watc
 ----------
 
 ## Modo de usar
+### Compilador
 Para rodar o compilador, basta executar o comando:  
 `npm start c:/caminho-do-arquivo-com-o-codigo.kl`  
 Para rodar o compilador com debug:  
 `npm run debug c:/caminho-do-arquivo-com-o-codigo.kl`
-
-Para executar a API, execute esse comando:  
-`npm run api:run`
   
+
+### API
+A API pode ser executada de duas formas:  
+* Clonando o projeto e executando:  
+`npm run api:run`
+
+* Via docker, usando o comando:  
+`sudo docker run -d -p 1232:3333 --name kasino-lang-api mathkruger/kasino-language-api` (Lembrando que a porta 1232 pode ser qualquer porta disponível)
+-------
+
 Por decisão minha, os arquivos do KL terão final `.kl`.
 
 ## Sintaxe
