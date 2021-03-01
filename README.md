@@ -1,6 +1,11 @@
 # KASINO Language Compiler
 
-Linguagem baseada no grande [KASINÃO NO SABADAÇO](https://www.youtube.com/watch?v=LCDaw0QmQQc&ab_channel=TeleguiadoTV).
+
+Linguagem baseada no grande [KASINÃO NO SABADAÇO](https://www.youtube.com/watch?v=LCDaw0QmQQc&ab_channel=TeleguiadoTV).  
+  
+![Coverage lines](./coverage/badge-lines.svg)
+![Coverage lines](./coverage/badge-functions.svg)
+![Coverage lines](./coverage/badge-statements.svg)
 
 ----------
 
