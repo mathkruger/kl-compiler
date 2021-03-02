@@ -35,7 +35,7 @@ module.exports = (klCode) => {
     // For loop
     code = code.replace(/(AS BALADAS)(?=(?:[^"]|"[^"]*")*$)/g, 'for');
     code = code.replace(/(VAI)(?=(?:[^"]|"[^"]*")*$)/g, 'continue');
-    code = code.replace(/(O SOM DA NOITE)(?=(?:[^"]|"[^"]*")*$)/g, 'return');
+    code = code.replace(/(ARREBENTA)(?=(?:[^"]|"[^"]*")*$)/g, 'return');
 
     // function
     code = code.replace(/(SABADAÇO)(?=(?:[^"]|"[^"]*")*$)/g, 'function');

@@ -6,8 +6,8 @@ const parse = require('./functions/parse/parse');
 const execute = require('./functions/execute/execute');
 
 const input = yargs.argv;
-const FILE = process.env.FILE || input.file;
-const DEBUG = process.env.DEBUG === 'true' || input.debug == 'true' || input.debug === true;
+const FILE = input.file;
+const DEBUG = input.debug === 'true' || input.debug === true;
 
 if (!FILE || typeof FILE !== 'string') {
     throw new Error('--file is required!');
