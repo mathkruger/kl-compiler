@@ -26,7 +26,5 @@
     "husky": "^5.1.2",
     "jest": "^26.6.3"
   },
-  "bin": {
-    "compile-kasino-file": "./src/compiler/index.js --file"
-  }
+  "bin": "./src/compiler/index.js"
 }
