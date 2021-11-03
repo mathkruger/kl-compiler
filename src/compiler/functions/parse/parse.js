@@ -7,6 +7,12 @@ module.exports = (klCode) => {
     code = code.replace(/(KASINAE)(?=(?:[^"]|"[^"]*")*$)/g, 'var');
     code = code.replace(/(KASINAO)(?=(?:[^"]|"[^"]*")*$)/g, 'const');
 
+    // modules
+    code = code.replace(/(VAI_EXPORTA)(?=(?:[^"]|"[^"]*")*$)/g, 'module.exports')
+
+    code = code.replace(/(CALMAE)(?=(?:[^"]|"[^"]*")*$)/g, 'async');
+    code = code.replace(/(ESPERA)(?=(?:[^"]|"[^"]*")*$)/g, 'await');
+
     // Output
     code = code.replace(/(VAIDJ)(?=(?:[^"]|"[^"]*")*$)/g, 'console.log');
 
