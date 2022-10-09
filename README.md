@@ -43,6 +43,8 @@ DESTAQUE       | if
 INTERNACIONAL  | else
 BOA NOITE      | {
 BOA TARDE      | }
+ABRE           | (
+FECHA          | )
 CAN'T          | switch
 GET            | case
 OVER           | break
@@ -51,18 +53,33 @@ VAI            | continue
 ARREBENTA      | return
 SABADAÇO       | function
 GILBARROWS     | => (arrow. sim, é um trocadilho horrível)
+MAIOR          | >
+MENOR          | <
+NAUM           | !
+SOMAE          | +
+MENOSAE        | -
+CALMAE         | async
+ESPERAE        | await
+EXPORTAE       | module.exports
+CHAMA          | Só um jeito de indicar que uma função está sendo chamada, não significa nada.
 
   
 ## Exemplo de código
 ```javascript
 KASINAO constante É 54;
 
-DESTAQUE (constante ÉÉ 54)
+DESTAQUE ABRE constante ÉÉ 54 FECHA
 BOA NOITE
-    VAIDJ("ÉÉÉÉÉ");
+    CHAMA VAIDJ ABRE "ÉÉÉÉÉ" FECHA;
 BOA TARDE
 INTERNACIONAL
 BOA NOITE
-    VAIDJ("NÃO ÉÉÉÉÉ");
+    CHAMA VAIDJ ABRE "NÃO ÉÉÉÉÉ" FECHA;
 BOA TARDE
 ```
+
+## Exemplo de projeto escrito em KL
+
+Achou que não dava pra escrever sua API de CRUD totalmente em KL? Achou errado OTÁRIO!!!!
+
+[VEJA COM SEUS PRÓPRIOS OLHOS](https://github.com/mathkruger/simple-api-kl)

@@ -8,10 +8,10 @@ module.exports = (klCode) => {
     code = code.replace(/(KASINAO)(?=(?:[^"]|"[^"]*")*$)/g, 'const');
 
     // modules
-    code = code.replace(/(VAI_EXPORTA)(?=(?:[^"]|"[^"]*")*$)/g, 'module.exports')
+    code = code.replace(/(EXPORTAE)(?=(?:[^"]|"[^"]*")*$)/g, 'module.exports')
 
     code = code.replace(/(CALMAE)(?=(?:[^"]|"[^"]*")*$)/g, 'async');
-    code = code.replace(/(ESPERA)(?=(?:[^"]|"[^"]*")*$)/g, 'await');
+    code = code.replace(/(ESPERAE)(?=(?:[^"]|"[^"]*")*$)/g, 'await');
 
     // Output
     code = code.replace(/(VAIDJ)(?=(?:[^"]|"[^"]*")*$)/g, 'console.log');
@@ -22,6 +22,10 @@ module.exports = (klCode) => {
     code = code.replace(/(MENOR)(?=(?:[^"]|"[^"]*")*$)/g, '<');
     code = code.replace(/(NAUM)(?=(?:[^"]|"[^"]*")*$)/g, '!');
     code = code.replace(/(GILBARROWS)(?=(?:[^"]|"[^"]*")*$)/g, '=>');
+    code = code.replace(/(VERDADE)(?=(?:[^"]|"[^"]*")*$)/g, 'true');
+    code = code.replace(/(FALSO)(?=(?:[^"]|"[^"]*")*$)/g, 'false');
+    code = code.replace(/(SOMAE)(?=(?:[^"]|"[^"]*")*$)/g, '+');
+    code = code.replace(/(MENOSAE)(?=(?:[^"]|"[^"]*")*$)/g, '-');
 
 
     // Conditional
@@ -36,7 +40,7 @@ module.exports = (klCode) => {
     code = code.replace(/(CAN'T)(?=(?:[^"]|"[^"]*")*$)/g, 'switch');
     code = code.replace(/(GET)(?=(?:[^"]|"[^"]*")*$)/g, 'case');
     code = code.replace(/(OVER)(?=(?:[^"]|"[^"]*")*$)/g, 'break');
-    code = code.replace(/(GOODBYE)(?=(?:[^"]|"[^"]*")*$)/g, 'default');
+    code = code.replace(/(BABY)(?=(?:[^"]|"[^"]*")*$)/g, 'default');
 
     // For loop
     code = code.replace(/(AS BALADAS)(?=(?:[^"]|"[^"]*")*$)/g, 'for');
@@ -44,7 +48,12 @@ module.exports = (klCode) => {
     code = code.replace(/(ARREBENTA)(?=(?:[^"]|"[^"]*")*$)/g, 'return');
 
     // function
+    code = code.replace(/(CHAMA)(?=(?:[^"]|"[^"]*")*$)/g, '');
     code = code.replace(/(SABADAÇO)(?=(?:[^"]|"[^"]*")*$)/g, 'function');
+
+    // delimitadores
+    code = code.replace(/(ABRE)(?=(?:[^"]|"[^"]*")*$)/g, '(');
+    code = code.replace(/(FECHA)(?=(?:[^"]|"[^"]*")*$)/g, ')');
 
     return code;
 }
