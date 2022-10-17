@@ -7,6 +7,8 @@ module.exports = (klCode) => {
     code = code.replace(/(KASINAE)(?=(?:[^"]|"[^"]*")*$)/g, 'var');
     code = code.replace(/(KASINAO)(?=(?:[^"]|"[^"]*")*$)/g, 'const');
 
+    code = code.replace(/(->)(?=(?:[^"]|"[^"]*")*$)/g, '.');
+
     // modules
     code = code.replace(/(EXPORTAE)(?=(?:[^"]|"[^"]*")*$)/g, 'module.exports')
 
