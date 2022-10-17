@@ -55,5 +55,10 @@ module.exports = (klCode) => {
     code = code.replace(/(ABRE)(?=(?:[^"]|"[^"]*")*$)/g, '(');
     code = code.replace(/(FECHA)(?=(?:[^"]|"[^"]*")*$)/g, ')');
 
+    // comentários
+    code = code.replace(/(\/COMENTAE)(?=(?:[^"]|"[^"]*")*$)/g, '//');
+    code = code.replace(/(\/COMENTASSO)(?=(?:[^"]|"[^"]*")*$)/g, '/*');
+    code = code.replace(/(COMENTASSO\/)(?=(?:[^"]|"[^"]*")*$)/g, '*/');
+
     return code;
 }
