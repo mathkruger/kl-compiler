@@ -83,3 +83,9 @@ BOA TARDE
 Achou que não dava pra escrever sua API de CRUD totalmente em KL? Achou errado OTÁRIO!!!!
 
 [VEJA COM SEUS PRÓPRIOS OLHOS](https://github.com/mathkruger/simple-api-kl)
+
+## "Compilador" de KL escrito em KL
+
+Eu sei, isso tá indo longe demais, mas fiz um boostrap da linguagem escrevendo ela nela mesma. É um processo interessante (no fim das contas, ele gera javascript, então nada muda kkkkk)
+
+[VEJA COM SEUS PRÓPRIOS OLHOS](https://github.com/mathkruger/kl-compiler-in-kl)
