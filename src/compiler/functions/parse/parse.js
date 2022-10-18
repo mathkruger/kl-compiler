@@ -11,7 +11,7 @@ module.exports = (klCode) => {
 
     // modules
     code = code.replace(new RegExp("(EXPORTAE)(?=(?:[^\"]|\"[^\"]*\")*$)", "g"), 'module.exports');
-    code = code.replace(new RegExp("(REQUISITAE)(?=(?:[^\"]|\"[^\"]*\")*$)", "g"), 'require');
+    code = code.replace(new RegExp("(REQUISITAE)(?:[^\"]|\"[^\"]*\")", "g"), 'require');
 
     code = code.replace(new RegExp("(CALMAE)(?=(?:[^\"]|\"[^\"]*\")*$)", "g"), 'async');
     code = code.replace(new RegExp("(ESPERAE)(?=(?:[^\"]|\"[^\"]*\")*$)", "g"), 'await');
