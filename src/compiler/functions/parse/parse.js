@@ -10,7 +10,8 @@ module.exports = (klCode) => {
     code = code.replace(/(->)(?=(?:[^"]|"[^"]*")*$)/g, '.');
 
     // modules
-    code = code.replace(/(EXPORTAE)(?=(?:[^"]|"[^"]*")*$)/g, 'module.exports')
+    code = code.replace(/(EXPORTAE)(?=(?:[^"]|"[^"]*")*$)/g, 'module.exports');
+    code = code.replace(/(REQUISITAE)(?=(?:[^"]|"[^"]*")*$)/g, 'require');
 
     code = code.replace(/(CALMAE)(?=(?:[^"]|"[^"]*")*$)/g, 'async');
     code = code.replace(/(ESPERAE)(?=(?:[^"]|"[^"]*")*$)/g, 'await');
