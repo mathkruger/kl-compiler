@@ -1,7 +1,7 @@
 SABADAÇO deCaraComAFera(pessoa) BOA NOITE
-    KASINAO resultado = `${pessoa} E AS REVELAÇÕES NO DE CARA COM A FERA`;
+    KASINAO resultado É `${pessoa} E AS REVELAÇÕES NO DE CARA COM A FERA`;
     ARREBENTA resultado;
 BOA TARDE
 
-KASINAO teleprompt = deCaraComAFera('THAMMY');
+KASINAO teleprompt É CHAMA deCaraComAFera('THAMMY');
 VAIDJ(teleprompt);
