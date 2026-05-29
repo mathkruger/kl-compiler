@@ -37,8 +37,10 @@ KL             | JS
 KASINO         | let
 KASINAE        | var
 KASINAO        | const
+->             | .
 VAIDJ          | console.log
 É              | =
+ÉÉ             | ==
 DESTAQUE       | if
 INTERNACIONAL  | else
 BOA NOITE      | {
@@ -48,7 +50,8 @@ FECHA          | )
 CAN'T          | switch
 GET            | case
 OVER           | break
-AS BALADAS     | default
+BABY           | default
+AS BALADAS     | for
 VAI            | continue
 ARREBENTA      | return
 SABADAÇO       | function
@@ -58,11 +61,16 @@ MENOR          | <
 NAUM           | !
 SOMAE          | +
 MENOSAE        | -
+VERDADE        | true
+FALSO          | false
 CALMAE         | async
 ESPERAE        | await
 EXPORTAE       | module.exports
+REQUISITAE     | require
 CHAMA          | Só um jeito de indicar que uma função está sendo chamada, não significa nada.
-
+/COMENTAE      | //
+/COMENTASSO    | /*
+COMENTASSO/    | */
   
 ## Exemplo de código
 ```javascript
